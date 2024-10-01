@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(150, 195, 208);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    color: #141212;
+}
+
+.all {
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+button {
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+
+button:active {
+    transform: scale(0.9);
+}
+
+
+button.s {
+  background-image:url('D1.jpg') ;
+  background-position: center;
+  background-size: cover;
+ 
+
+}
+
+button.r{ 
+    background-image:url('D2.jpg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+  button.g{ 
+    background-image:url('D3.jpg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  button.m{ 
+    background-image:url('D7.jpeg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  button.p{ 
+    background-image:url('D5.jpg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  button.d{
+    /* background-color: #ff6666;  */
+    background-image:url('D6.jpeg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+  button.n{ 
+    background-image:url('D4.webp') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+  button.a { 
+    background-image:url('D1.jpg') ;
+    background-position: center;
+    background-size: cover;
+  }
+
+button.active-border {
+    border: 5px solid rgb(255, 4, 0); 
+}
+
